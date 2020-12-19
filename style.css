@@ -1,0 +1,132 @@
+* { margin: 0px; padding: 0px; }
+body {
+	font-size: 120%;
+	background: #e8f4ea;
+}
+.header {
+	width: 40%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #015C00;
+	text-align: center;
+	border: 1px solid black;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form, .content {
+	width: 40%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid black;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 45px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.input-group select{
+    height: 40px;
+    width: 95%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.input-group img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#user_type {
+	height: 40px;
+	width: 98%;
+	padding: 5px 10px;
+	background: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #015C00;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+        margin-bottom: 10px;
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: center;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+.profile_info img {
+	display: inline-block; 
+	width: 50px; 
+	height: 50px; 
+	margin: 5px;
+	float: left;
+}
+.profile_info div {
+	display: inline-block; 
+	margin: 5px;
+}
+.profile_info:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.checkbox-group label{
+    display: inline-block;
+    text-align: left;
+    margin: 3px;
+}
+.cart_table table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.cart_table th, td{
+    text-align: center;
+    padding: 10px;
+}
+.cart_table th{
+   color: white;
+   background-color: #015C00;
+}
+.cart_table select{
+    width: 40px;
+    align: center;
+}
+.radio-group label{
+    display: inline-block;
+    font-size: 110%;
+}
+.radio-group radio{
+    display: inline-block;
+    align-content: left;
+}
